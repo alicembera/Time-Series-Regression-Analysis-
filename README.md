@@ -1,17 +1,17 @@
 # Regression-Project-on-Coorporation-Favorita
 Corporation Favorita aims to optimize its inventory management by accurately forecasting the demand for various products across its stores in Ecuador. The goal is to ensure that each store has the right quantity of products in stock to meet customer demand while minimizing overstocking or stockouts.
 
-# Introduction
+## Introduction
 Corporation Favorita wants to ensure that they always have the right quantity of products in stock. To do this I have decided to build a series of machine learning models to forecast the demand of products in various locations. The marketing and sales team have provided you with some data to aid this endeavor. CRISP-DM Framework for Data Science projects were used.
 
 ## Insights from data analysis
-The dataset provided were train, test, stores, oil, transaction, sample_submission and holiday_events. However, the main dataset useeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+The dataset provided were train, test, stores, oil, transaction, sample_submission and holiday_events. However, the main dataset used in the analysis were the train and test datasets whiles the other supplementary datasets were useful in answering the hypothesis and the questions of interest.
 
 ## Hypothesis and Questions
 The following hypothesis was stated for the regression analysis:
-Null Hypothesis (Ho): Holidays do not have a significant effect on the sales 
+Null Hypothesis (Ho): Holidays do not have a significant effect on the sales. 
 
-Alternate Hypothesis (Ha): Holidays have a significant effect on the sales
+Alternate Hypothesis (Ha): Holidays have a significant effect on the sales.
 
 ## Questions
 1. Is the train dataset complete (has all the required dates)?
@@ -24,6 +24,79 @@ Alternate Hypothesis (Ha): Holidays have a significant effect on the sales
 8. Which product family and stores did the promotions affect.
 9. What is the difference between RMSLE, RMSE, MSE (or why is the MAE greater than all of them?)
 10. Does the payment of wages in the public sector on the 15th and last days of the month influence the store sales.
+
+##  Overview
+The objective is to build machine learning models that can predict unit sales for different product families at Favorita stores accurately. These models will help optimize inventory levels, improve sales forecasting accuracy, and ultimately enhance customer satisfaction by ensuring product availability.
+
+As part of the project, the following processes were followed:
+- Initial data import, cleanup, and overview.
+- Exploratory Data Analysis - This provided more insight to uncover the need for more data cleaning.
+- Model Development. (I performed data processing, built models, chose algorithms, chose best-performing model, etc)
+- Model evaluation and comparison.
+
+  ## Data Import, Clean-up, and Exploratory Data Analysis (EDA)
+  The following libraries were imported to aid EID, analysis, and machine learning models.
+
+## Library for EDA
+- import pandas as pd.
+- import numpy as np. 
+- import seaborn as sns.
+- %matplotlib inline.
+- import matplotlib.pyplot as plt.
+- import matplotlib.dates as mdates.
+- from sklearn.impute import SimpleImputer.
+- from pandas_profiling import ProfileReport.
+- import warnings.
+warnings.filterwarnings('ignore')
+- Data Import and Business Understanding.
+
+To perform an excellent analysis, a thorough business understanding was prerequisite. As a result, I loaded the datasets (train, test, transaction, oil, stores, holidays_events, and sample_submission). The train and test datasets were used in the analysis whiles the other datasets aid the EDA in answering most of the project questions where required.
+
+## Train Data CSV
+
+The train data csv contained the following, time series of features from 2013/01/01 to 2017/08/15. Also, the following columns were found, store_nbr, family, target sales, and on_promotion respectively.
+- The store_nbr indicated the store at which the products were sold.
+- The On promotion column was the total number of items promoted at a store at a given date period.
+- The target sales gave the total sales for a product class at a particular store at a given date.
+- The family column identified the type of product sold.
+
+## Overview of the transaction, oil, stores, holidays_events, and sample_submission datasets
+
+**Transaction csv**
+
+There were three(3) columns in the transition csv. These are date, store number, and transactions
+
+**Oil csv**
+
+The oil csv were contained in it the date and dcoilwtico columns
+
+**Stores csv**
+
+The stores csv also had store number, city, state, type, and cluster as its columns
+
+**Holiday_events csv**
+
+This dataset had the following columns, data, type of event, locale, locale name, description and transferred.
+
+**Sample_Submission csv**
+
+The sample_submission had only two columns, thus, the Id and sales columns.
+
+## Checking columns and rows of each dataset
+During the EDA it was found that each of the dataset had the following shape:
+- Sample_submission csv had 28512 rows and 2 columns.
+- Stores csv had 54 rows and 5 columns.
+- Transaction csv had 83488 and 3 columns.
+- 0il csv had 1218 rows and 2 columns.
+- Train csv had 3000888 rows and 6 columns.
+- Test csv had 28512 rows and 5 columns.
+
+## Machine Learning and Modeling
+
+
+
+  
+
 
 
 
