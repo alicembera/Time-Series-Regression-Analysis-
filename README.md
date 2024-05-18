@@ -9,6 +9,7 @@ The dataset provided were train, test, stores, oil, transaction, sample_submissi
 
 ## Hypothesis and Questions
 The following hypothesis was stated for the regression analysis:
+
 Null Hypothesis (Ho): Holidays do not have a significant effect on the sales. 
 
 Alternate Hypothesis (Ha): Holidays have a significant effect on the sales.
