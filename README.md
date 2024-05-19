@@ -100,12 +100,19 @@ Regression is an essential statistical method employed in time-series analysis a
 
 ### Thank you!
 
-Link to article on Medium:
+Link to article on Medium: https://medium.com/@mberaalice7/time-series-regression-analysis-on-corporation-favorita-sales-5126f25c6920
 
 
 ### Power BI Visualizations
+![PBI 1](https://github.com/alicembera/Time-Series-Regression-Analysis-/assets/160122113/a0cdc9e1-efe9-4182-92ca-7133b03c2d2a)
 
+![PBI2](https://github.com/alicembera/Time-Series-Regression-Analysis-/assets/160122113/1267cb77-f025-499d-a4fa-cc3433971afd)
 
+![PBI3](https://github.com/alicembera/Time-Series-Regression-Analysis-/assets/160122113/3efe5b62-5139-4158-a89f-b44b27d513fc)
+
+![PBI4](https://github.com/alicembera/Time-Series-Regression-Analysis-/assets/160122113/6401c5ff-5cdf-4803-8d42-6881cd6a5fc3)
+
+![PBI5](https://github.com/alicembera/Time-Series-Regression-Analysis-/assets/160122113/32fc0bb9-d50e-4397-80ab-a8e22823278a)
 
 
 ## Author 
