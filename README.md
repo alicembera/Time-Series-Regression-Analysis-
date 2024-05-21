@@ -91,12 +91,16 @@ During the EDA it was found that each of the dataset had the following shape:
 - 0il csv had 1218 rows and 2 columns.
 - Train csv had 3000888 rows and 6 columns.
 - Test csv had 28512 rows and 5 columns.
+- Holiday csv had 350 rows and 6 columns.
 
 ## Machine Learning and Modeling
-At this part of the project, 5models were trained and validated. These are linear regression model, XGBRegressor, ARIMA, SARIMA, Prophet models.
+At this part of the project, 5models were trained and validated. These are linear regression model, XGBRegressor, ARIMA, SARIMA, Prophet models. And XGBRegressor was the best.
 
 ## Summary 
 Regression is an essential statistical method employed in time-series analysis and modeling. It helps predict future trends, uncover patterns, and evaluate the effects of past events on current data. The most frequently utilized regression techniques in time-series analysis include linear regression, ARIMA, and exponential smoothing. By comprehending the benefits of applying regression in time-series analysis, data scientists can enhance their decision-making and refine their data analysis methods.
+
+## Conclusion 
+Employing machine learning for demand forecasting can greatly enhance inventory management for companies such as Favorita. By utilizing historical sales data, store locations, holidays, and oil prices, businesses can create precise forecasting models to guide purchasing and stocking decisions. This approach helps in minimizing stockouts and overstocking, thereby streamlining operations and increasing profitability.
 
 ### Thank you!
 
